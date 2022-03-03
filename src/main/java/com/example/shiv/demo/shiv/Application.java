@@ -10,6 +10,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		
 		System.out.println("shibvaaaaaaaaaaaaaaaaaaaaa");
+		System.out.println("first push...");
 	}
 
 }
