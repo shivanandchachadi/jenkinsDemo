@@ -10,10 +10,10 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		
 		System.out.println("shivanandchachadi");
-		System.out.println("first commit");
+		
 		System.out.println(100+100 + "first p");
 		
-		System.out.println(100+100 + "BRANCH ONE ");
+		
 	}
 
 }
