@@ -19,11 +19,8 @@ public class Application {
 		a.add("shivanand");
 		a.add("chchadi");
 		a.add("software");
-		a.add("engineer");
-		a.add("engineer");
-		
-		System.out.println("before sort "+a.indexOf("shivanand"));
-		//a.sort(null);
+		a.add("12");
+		a.sort(null);
 		System.out.println(a.indexOf("shivanand"));
 		Set set=new TreeSet<String>();
 		
