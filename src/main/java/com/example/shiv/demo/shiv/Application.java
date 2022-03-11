@@ -1,6 +1,8 @@
 package com.example.shiv.demo.shiv;
 
 import java.util.ArrayList;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,13 +19,23 @@ public class Application {
 		a.add("shivanand");
 		a.add("chchadi");
 		a.add("software");
-		a.add("Engineer");
-		a.sort(null);
-		System.out.println(a.indexOf("software"));
+		a.add("engineer");
+		a.add("engineer");
+		
+		System.out.println("before sort "+a.indexOf("shivanand"));
+		//a.sort(null);
+		System.out.println(a.indexOf("shivanand"));
+		Set set=new TreeSet<String>();
+		
 		for(String b:a) {
+			set.add(b);
 			
-			System.out.println("the names in list are "+b);
+			System.out.print("  "+b);
 		}
+		
+		System.out.println("set values "+ set);
+		
+		
 		
 		
 		// testing git hub
